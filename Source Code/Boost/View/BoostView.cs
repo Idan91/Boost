@@ -213,7 +213,7 @@ namespace Boost.View
                             FetchAndDisplayUserData();
                             initializeSettingsPopUp();
                             displayDisclaimer();
-                            displayWhatsNewPopup();
+                            //displayWhatsNewPopup();
                             r_BoostEn.OverwriteBoostSettings();
                         }));
             }
@@ -225,10 +225,14 @@ namespace Boost.View
 
         private void displayDisclaimer()
         {
-            MessageBox.Show(
+            if (r_BoostEn.m_BoostSettings.LastUsedVersion != BoostEngine.SR_CurrentVersion)
+            {
+                MessageBox.Show(
                 @"Due to Facebook restricting some of their permissions, some features may appear as blank even though they functionally work.
 
 This has been approved as part of the creation of this app.", "Disclaimer");
+
+            }
         }
 
         private void displayWhatsNewPopup()

@@ -22,7 +22,7 @@ namespace Boost.Model
 
         #region Data Members
 
-        private const int k_CollectionLimit = 20;
+        private const int k_CollectionLimit = 15;
 
         public const int k_NumOfBiggestFans = 3;
 
