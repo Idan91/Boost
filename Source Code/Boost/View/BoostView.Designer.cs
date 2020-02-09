@@ -66,7 +66,7 @@ namespace Boost.View
             this.Footer.Name = "Footer";
             this.Footer.Size = new System.Drawing.Size(1135, 33);
             this.Footer.TabIndex = 6;
-            this.Footer.Text = "ALL RIGHTS RESERVED TO BOOST FOR FACEBOOK © 2019";
+            this.Footer.Text = "ALL RIGHTS RESERVED TO BOOST FOR FACEBOOK © 2020";
             this.Footer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // PanelFooterRight
